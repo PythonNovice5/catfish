@@ -1,0 +1,10 @@
+/.classpath
+/.project
+/.settings
+/build
+/target
+/.idea
+/catfish.iml
+/catfish.log
+src/test/resources/testdata/bmecat/temp/
+src/test/resources/testdata/temp/

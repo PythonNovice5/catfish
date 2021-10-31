@@ -1,0 +1,397 @@
+{
+	"constants": {
+		"unspscCode": "86000000"
+	},
+	"required": [
+		"LINKED_MEDIA"
+	],
+	"attributes": [{
+		"type": "select",
+		"key": "Service categories",
+		"tooltip": "Choose a category.  Multiple selections are permitted only within the same category number.",
+		"width": 9,
+		"multiple": "multiple",
+		"lines": 12,
+		"required": "required",
+		"limits": "only-multiple-within-optgroup",
+		"options": ["1: Engagement",
+		"2: Moving towards work",
+		"3: Support for hardest to help with complex & multiple barriers",
+		{
+			"group": "4. Supporting hardest to help in to work",
+			"options": ["4.1: Literacy / numeracy / ESOL",
+			"4.2: Health & disability issues, including mental health",
+			"4.3: Drugs / alcohol & substance abuse",
+			"4.4: Mild learning difficulties",
+			"4.5: Homelessness",
+			"4.6: Offending issues"]
+		},
+		{
+			"group": "5. Addressing barriers",
+			"options": ["5.1: Entrenched worklessness",
+			"5.2: Literacy / numeracy / ESOL",
+			"5.3: Debt & money management",
+			"5.4: Caring responsibilities"]
+		},
+		{
+			"group": "6: Skills for work",
+			"options": ["6.1: Administrative/Clerical/Secretarial",
+			"6.2: Arts and Media",
+			"6.3: Care",
+			"6.4: Construction",
+			"6.5: Customer Service",
+			"6.6: Engineering ",
+			"6.7: Financial",
+			"6.8: Hairdressing and Beauty",
+			"6.9: Health and Safety",
+			"6.10: Hospitality",
+			"6.11: IT Media",
+			"6.12: Logistics and Transport",
+			"6.13: Manufacturing",
+			"6.14: Public Services",
+			"6.15: Retail",
+			"6.16: Security ",
+			"6.17: Sports and Fitness",
+			"6.18: Travel and Tourism",
+			"6.19: Other"]
+		},
+		"7: Getting jobs",
+		"8: Keeping jobs",
+		"9. Routeway 1: 1, 2 and 3",
+		"10. Routeway 2: 4 and 6",
+		"11. Routeway 3: 5 and 7",
+		"12. Routeway 4: 6 and 7",
+		"13. Routeway 5: 1, 2, 3 and 4"]
+	},
+	{
+		"type": "select",
+		"key": "Claimant groups",
+		"tooltip": "Select the groups your service will target.",
+		"multiple": "multiple",
+		"required": "required",
+		"options": ["People aged 18-24",
+		"People aged 25-49",
+		"People aged 50+",
+		"Lone parents",
+		"Carers",
+		"Care leavers",
+		"NEET",
+		"Health & Disability issues",
+		"Black & ethnic minority groups",
+		"Employment related issues"]
+	},
+	{
+		"type": "hierarchy",
+		"key": "Locations",
+		"tooltip": "Select the locations you can deliver your service to.",
+		"multiple": "multiple",
+		"required": "required",
+		"options": [{
+			"group": "Central England",
+			"options": [{
+				"group": "Birmingham and Solihull",
+				"options": ["Birmingham City", "Birmingham South West", "Broad St", "Chelmsley Wood", "Erdington", "Handsworth", "Kings Heath", "Perry Barr", "Selly Oak",
+					"Solihull", "Sparkhill", "Sutton Coldfield", "Washwood Heath", "Yardley"]
+			},
+			{
+				"group": "Black Country",
+				"options": ["Bilston", "Brownhills", "Dudley", "Halesowen", "Oldbury", "Smethwick", "Stourbridge", "Tipton", "Walsall Bayard House", "Walsall Bridle Court",
+					"West Bromwich", "Willenhall", "Wolverhampton Chapel Court", "Wolverhampton Molineux House"]
+			},
+			{
+				"group": "East Anglia",
+				"options": ["Beccles", "Bury St Edmunds", "Cambridge", "Cromer", "Dereham", "Diss", "Downham Market", "Ely", "Fakenham", "Felixstowe", "Great Yarmouth", "Haverhill",
+					"Hunstanton", "Huntingdon", "Ipswich", "Kings Lynn", "Leiston", "Lowestoft", "Mildenhall", "North Walsham", "Norwich", "Newmarket", "Peterborough", "Stowmarket",
+					"Sudbury", "Thetford", "Wisbech", "Woodbridge"]
+			},
+			{
+				"group": "Leicestershire and Northamptonshire",
+				"options": ["Coalville", "Corby", "Daventry", "Hinckley", "Kettering", "Leicester Charles Street", "Leicester New Walk", "Leicester Wellington Street", "Loughborough",
+					"Market Harborough", "Melton Mowbray", "Northampton", "Rushden", "Wellingborough"]
+			},
+			{
+				"group": "Lincolnshire, Nottinghamshire and Rutland",
+				"options": ["Arnold", "Beeston", "Boston", "Bulwell", "Gainsborough", "Grantham", "Mansfield", "Lincoln Orchard Street", "Louth", "Newark", "Nottingham Parliament Street",
+					"Nottingham Loxley House", "Retford", "Skegness", "Sleaford", "Spalding", "Stamford", "Sutton in Ashfield", "Worksop"]
+			},
+			{
+				"group": "Mercia",
+				"options": ["Atherstone", "Bedworth", "Bromsgrove", "Coventry Cofa Court", "Coventry Tile Hill", "Evesham", "Hereford", "Kidderminster", "Leamington Spa", "Leominster",
+					"Malvern", "Nuneaton", "Redditch", "Ross On Wye", "Rugby", "Stratford upon Avon", "Worcester"]
+			}]
+		},
+		{
+			"group": "London & Home Counties",
+			"options": [{
+				"group": "Bedfordshire & Hertfordshire",
+				"options": ["Bedford", "Biggleswade", "Borehamwood", "Hatfield", "Hemel Hempstead", "Hertford Jobcentre Plus", "Leighton Buzzard", "Letchworth", "Luton", "St Albans",
+					"Stevenage", "Waltham Cross", "Watford"]
+			},
+			{
+				"group": "Essex",
+				"options": ["Basildon",
+				"Braintree", "Brentwood", "Canvey Island", "Chelmsford", "Clacton", "Colchester", "Grays", "Harlow", "Harwich", "Loughton", "Rayleigh", "Southend", "Witham"]
+			},
+			{
+				"group": "East London",
+				"options": ["Barking JC", "Canning Town", "City Tower", "Dagenham", "Dalston", "East Ham", "Hackney", "Hornchurch", "Hoxton", "Leytonstone", "Plaistow",
+					"Poplar", "Redbridge", "Romford", "Stratford", "Walthamstow Westbury Road"]
+			},
+			{
+				"group": "North London",
+				"options": ["Barnet", "Barnsbury", "Edgware", "Edmonton", "Enfield", "Finchley", "Finsbury Park", "Hendon", "Highgate", "Kentish Town", "North Kensington",
+					"Palmers Green", "St Marylebone", "Tottenham", "Westminster", "Wood Green"]
+			},
+			{
+				"group": "South London",
+				"options": ["Bexley", "Brixton", "Bromley", "Clapham Common", "Croydon", "Eltham", "Forest Hill", "Kennington Park", "Lewisham", "London Bridge", "Mitcham",
+					"Peckham", "Purley", "Stockwell", "Streatham", "Sutton", "Thornton Heath", "Woolwich"]
+			},
+			{
+				"group": "West London",
+				"options": ["Acton", "Ealing", "Fulham", "Hammersmith", "Harlesden", "Harrow Kings House", "Hayes", "Hounslow", "Kilburn", "Kingston", "Shepherds Bush",
+					"Southall", "Twickenham", "Uxbridge", "Wandsworth", "Wembley", "Willesden"]
+			},
+			{
+				"group": "Kent",
+				"options": ["Ashford", "Canterbury", "Chatham", "Dartford", "Dover", "Folkestone", "Gravesend", "Herne Bay/Whitstable", "Maidstone", "Margate", "Ramsgate",
+					"Sheerness", "Sittingbourne", "Tonbridge", "Tunbridge Wells"]
+			}]
+		},
+		{
+			"group": "North East",
+			"options": [{
+				"group": "Durham & Tees Valley",
+				"options": ["Billingham", "Bishop Auckland", "Chester-Le-Street", "Consett", "Crook", "Darlington", "Durham", "Eston", "Guisborough", "Hartlepool", "Loftus",
+					"Middlesbrough Central", "Middlesbrough East", "Newton Aycliffe", "Peterlee", "Redcar", "Seaham", "Spennymoor", "Stanley", "Stockton", "Thornaby"]
+			},
+			{
+				"group": "North East Yorkshire & Humber",
+				"options": ["Barton", "Beverley", "Bridlington", "Goole", "Grimsby Bridge House", "Grimsby Crown House", "Harrogate", "Hessle", "Hull Britannia House",
+					"Hull Crown House", "Hull Market Place", "Immingham", "Northallerton", "Scunthorpe", "Selby", "Skipton"]
+			},
+			{
+				"group": "Northumberland Tyne & Wear",
+				"options": ["Alnwick", "Ashington", "Bedlington", "Berwick Upon Tweed", "Blaydon", "Blyth", "Cramlington", "Gateshead", "Hexham", "Houghton-le-Spring", "Jarrow",
+					"Killingworth", "Morpeth", "Newcastle City", "Newcastle East", "Newcastle West", "North Shields", "South Shields", "Southwick", "Sunderland", "Wallsend",
+					"Washington", "Whitley Bay"]
+			},
+			{
+				"group": "South Yorkshire",
+				"options": ["Barnsley", "Dinnington", "Doncaster", "Goldthorpe", "Hillsborough", "Maltby", "Mexborough", "Rotherham", "Sheffield Bailey Court",
+					"Sheffield Cavendish Court", "Sheffield Chambers Court", "Sheffield Eastern Avenue", "Thorne", "Wombwell", "Woodhouse"]
+			},
+			{
+				"group": "West Yorkshire",
+				"options": ["Batley", "Bradford BC", "Bradford Eastbrook Court", "Bradford Westfield House", "Brighouse", "Castleford", "Dewsbury", "Guiseley", "Halifax Crossfield Hs",
+					"Hemsworth", "Huddersfield", "Keighley", "Leeds Eastgate", "Leeds Park Place", "Leeds Southern House", "Morley", "Pontefract", "Pudsey", "Seacroft", "Shipley",
+					"Spen Valley", "Todmorden", "Wakefield"]
+			}]
+		},
+		{
+			"group": "North West",
+			"options": [{
+				"group": "Cheshire",
+				"options": ["Chester", "Congleton", "Crewe", "Ellesmere Port", "Macclesfield", "Neston", "Northwich", "Warrington", "Wilmslow", "Winsford"]
+			},
+			{
+				"group": "Cumbria & Lancashire",
+				"options": ["Accrington", "Barrow", "Blackburn", "Blackpool North", "Blackpool South", "Burnley", "Carlisle", "Chorley", "Clitheroe", "Colne", "Darwen",
+					"Fleetwood", "Kendal", "Lancaster", "Leyland", "Morecambe", "Nelson", "Ormskirk", "Penrith", "Preston", "Rawtenstall", "Skelmersdale", "St Annes",
+					"Whitehaven", "Workington"]
+			},
+			{
+				"group": "Greater Manchester",
+				"options": ["Altrincham", "Ashton-in-Makerfield", "Ashton-U-Lyne", "Atherton", "Bolton", "Bolton Great Moor Street", "Bury", "Cheetham", "Chorlton",
+					"Eccles", "Farnworth", "Heywood", "Hyde", "Irlam", "Leigh", "Longsight", "Manchester Employer Suite", "Middleton", "Newton Heath", "Oldham", "Openshaw",
+					"Prestwich", "Rochdale", "Rusholme", "Salford", "Stalybridge", "Stockport", "Stretford", "Wigan", "Worsley", "Wythenshawe"]
+			},
+			{
+				"group": "Merseyside",
+				"options": ["Aintree", "Belle Vale", "Birkenhead", "Bootle", "Bromborough", "Crosby", "Edge Hill", "Everton", "Garston", "Hoylake", "Huyton", "Kirkby",
+					"Newton Le Willows", "Norris Green", "Runcorn", "Southport", "St Helens", "Toxteth", "Upton", "Wallasey", "Wavertree", "West Derby", "Widnes", "Williamson Sq"]
+			}]
+		},
+		{
+			"group": "Scotland",
+			"options": [{
+				"group": "East and SE Scotland",
+				"options": ["Alloa", "Bathgate", "Broxburn", "Cowdenbeath", "Cupar", "Dalkeith", "Dunfermline", "Edinburgh City", "Eyemouth", "Falkirk", "Galashiels",
+					"Glenrothes", "Grangemouth", "Hawick", "High Riggs", "Kirkcaldy", "Leith", "Leven", "Livingston", "Musselburgh", "Penicuik", "St Andrews", "Stirling",
+					"Wester Hailes"]
+			},
+			{
+				"group": "Central Scotland",
+				"options": ["Airdrie", "Anniesland", "Bellshill", "Bridgeton", "Cambuslang", "Castlemilk", "Cumbernauld", "Drumchapel", "Easterhouse", "East Kilbride",
+					"Govan", "Hamilton", "Kirkintilloch", "Lanark", "Langside", "Laurieston", "Maryhill", "Motherwell", "Newlands", "Parkhead", "Partick", "Rutherglen",
+					"Shettleston", "Springburn"]
+			},
+			{
+				"group": "North of Scotland",
+				"options": ["Aberdeen Ebury House", "Arbroath", "Banff", "Blairgowrie", "Buckie", "Dingwall", "Dundee Wellgate", "Elgin", "Forfar", "Forres", "Fort William",
+					"Fraserburgh", "Invergordon", "Inverness", "Inverness SF", "Kirkwall", "Lerwick", "Montrose", "Perth", "Peterhead", "Portree", "Stornoway", "Wick"]
+			},
+			{
+				"group": "West of Scotland",
+				"options": ["Alexandria", "Annan", "Ayr", "Barrhead", "Campbeltown", "Clyde and Fife BC", "Clydebank", "Clydebank BC", "Coatbridge BC", "Cumnock",
+					"Dumbarton", "Dumfries", "Dunoon", "Girvan", "Greenock Dalrymple St", "Helensburgh", "Irvine", "Johnstone", "Kilbirnie", "Kilmarnock", "Oban",
+					"Paisley", "Port Glasgow", "Renfrew", "Rothesay", "Saltcoats", "Stranraer"]
+			}]
+		},
+		{
+			"group": "Southern",
+			"options": [{
+				"group": "Avon Severn & Thames",
+				"options": ["Abingdon", "Aylesbury", "Banbury", "Bath", "Bedminster", "Bishopsworth", "Bristol Central", "Cheltenham", "Chesham", "Cinderford", "Cirencester",
+					"Clevedon", "Coleford", "Didcot", "Easton", "Gloucester", "High Wycombe", "Horfield", "Kingswood", "Milton Keynes", "Oxford", "Shirehampton", "Stroud",
+					"Tewkesbury", "Weston Super Mare", "Witney", "Yate"]
+			},
+			{
+				"group": "Berkshire, Surrey & Sussex",
+				"options": ["Bexhill", "Bognor Regis", "Bracknell", "Brighton", "Camberley", "Chichester", "Crawley", "Eastbourne", "Epsom", "Guildford", "Hastings",
+					"Haywards Heath", "Horsham", "Hove", "Lewes Medwyn House", "Littlehampton", "Maidenhead", "Newbury", "Newhaven", "Reading", "Redhill", "Slough", "Staines",
+					"Weybridge", "Woking", "Worthing"]
+			},
+			{
+				"group": "Dorset, Wiltshire, Hampshire and Isle of Wight",
+				"options": ["Aldershot", "Alton", "Andover", "Basingstoke", "Blandford", "Bordon", "Bournemouth", "Bridport", "Chippenham", "Cosham", "Devizes", "Eastleigh",
+					"Fareham", "Farnborough", "Gosport", "Havant", "Hythe", "Lymington", "Newport (IoW)", "Petersfield", "Poole", "Portsmouth", "Ringwood", "Ryde",
+					"Salisbury", "Southampton", "Swindon", "Trowbridge", "Weymouth", "Winchester", "Winton"]
+			},
+			{
+				"group": "Devon Cornwall & Somerset",
+				"options": ["Barnstaple", "Bideford", "Bodmin", "Bridgwater", "Brixham", "Bude", "Devonport", "Exeter", "Frome", "Helston", "Honiton", "Launceston",
+					"Liskeard", "Minehead", "Newquay", "Newton Abbot", "Penryn", "Penzance", "Plymouth", "Redruth", "St Austell", "Taunton", "Tiverton", "Torquay",
+					"Totnes", "Truro", "Wells", "Yeovil"]
+			}]
+		},
+		{
+			"group": "Wales",
+			"options": [{
+				"group": "North & Mid Wales",
+				"options": ["Amlwch", "Bangor", "Brecon", "Caernarfon", "Colwyn Bay", "Dolgellau", "Flint", "Holyhead", "Llandrindod Wells", "Llandudno", "Llangefni",
+					"Machynlleth", "Mold", "Newtown", "Porthmadog", "Pwllheli", "Rhyl", "Shotton", "Welshpool", "Wrexham", "Ystradgynlais"]
+			},
+			{
+				"group": "South West Wales",
+				"options": ["Aberdare", "Aberystwyth", "Ammanford", "Bridgend Market Street", "Cardigan", "Carmarthen", "Gorseinon", "Haverfordwest", "Llanelli",
+					"Llantrisant", "Maesteg", "Milford Haven", "Morriston", "Mountain Ash", "Neath", "Pembroke Dock", "Pontypridd", "Porth", "Porthcawl", "Port Talbot",
+					"Pyle", "Swansea", "Tonypandy", "Treorchy"]
+			},
+			{
+				"group": "South East Wales",
+				"options": ["Abergavenny", "Abertillery", "Bargoed", "Barry", "Blackwood", "Caerphilly", "Caldicot", "Cardiff Alexandra House", "Cardiff Charles Street",
+					"Chepstow", "Cwmbran", "Ebbw Vale", "Merthyr Tydfil", "Newport (Wales)", "Penarth", "Pontypool", "Tredegar"]
+			}]
+		}]
+	},
+	{
+		"type": "select",
+		"key": "Claimant engagement",
+		"tooltip": "Select your delivery approach.",
+		"required": "required",
+		"options": ["One-to-one",
+		"Group / Course / Workshop"]
+	},
+	{
+		"type": "select",
+		"key": "Minimum number of claimants per call off contract",
+		"value": "Minimum number of claimants",
+		"tooltip": "Select the mimium number of participants for you to make any potential contract viable.",
+		"required": "required",
+		"options": ["1-10",
+		"11-20",
+		"21-50",
+		"51-100",
+		"101-200",
+		"201-300",
+		"301+"]
+	},
+	{
+		"type": "number",
+		"key": "Maximum group size per course",
+		"tooltip": "Enter the maximum number of people in each group. (Collected for information only and is not searchable)",
+		"required": "required",
+		"limits": "positive integer",
+		"filter": false
+	},
+	{
+		"type": "select",
+		"key": "Lead time",
+		"tooltip": "Indicate the length of time between order and first provision.",
+		"required": "required",
+		"options": ["Up to 7 days",
+		"Up to 14 days",
+		"Up to 30 days",
+		"31+ days"]
+	},
+	{
+		"type": "group",
+		"key": "Unit price",
+		"required": "required",
+		"fields": [{
+			"key": "Unit price for 1 participant",
+			"text": "for 1 participant",
+			"type": "number",
+			"suffix": "GBP",
+			"limits": "positive DP2",
+			"filter": false
+		},
+		{
+			"key": "Unit price for 2 - 10 participants",
+			"text": "for 2 - 10 participants",
+			"type": "number",
+			"suffix": "GBP",
+			"limits": "positive DP2",
+			"filter": false
+		},
+		{
+			"key": "Unit price for 11 - 20 participants",
+			"text": "for 11 - 20 participants",
+			"type": "number",
+			"suffix": "GBP",
+			"limits": "positive DP2",
+			"filter": false
+		},
+		{
+			"key": "Unit price for 21 - 50 participants",
+			"text": "for 21 - 50 participants",
+			"type": "number",
+			"suffix": "GBP",
+			"limits": "positive DP2",
+			"filter": false
+		},
+		{
+			"key": "Unit price for 51 - 100 participants",
+			"text": "for 51 - 100 participants",
+			"type": "number",
+			"suffix": "GBP",
+			"limits": "positive DP2",
+			"filter": false
+		},
+		{
+			"key": "Unit price for 101 - 200 participants",
+			"text": "for 101 - 200 participants",
+			"type": "number",
+			"suffix": "GBP",
+			"limits": "positive DP2",
+			"filter": false
+		},
+		{
+			"key": "Unit price for 201 - 300 participants",
+			"text": "for 201 - 300 participants",
+			"type": "number",
+			"suffix": "GBP",
+			"limits": "positive DP2",
+			"filter": false
+		},
+		{
+			"key": "Unit price for 301+ participants",
+			"text": "for 301+ paticipants",
+			"type": "number",
+			"suffix": "GBP",
+			"limits": "positive DP2",
+			"filter": false
+		}]
+	}]
+}

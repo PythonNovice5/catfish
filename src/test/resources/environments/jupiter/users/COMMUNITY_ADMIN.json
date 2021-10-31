@@ -1,0 +1,28 @@
+{
+  "username": "community_admin@thby001",
+  "password": "Cucumber-1!",
+  "isBuyer": true,
+  "isSupplier": false,
+  "allowedMainMenuItems": [
+    "HOME",
+    "DASHBOARD",
+    "PRODUCTMANAGER",
+    "DIRECTORY",
+    "MYPROFILE",
+    "SETTINGS"
+  ],
+  "allowedSettings": [
+    "COMMUNITY_MANAGEMENT",
+    "ORGANISATION_MANAGEMENT",
+    "USER_MANAGEMENT",
+    "SUPPLIER_REGISTRATION",
+    "REQUEST_A_SUPPLIER",
+    "REQUEST_A_CATALOGUE",
+    "BUYER_REGISTRATION",
+    "USER_REGISTRATION",
+    "CATALOGUE_ACCESS_MANAGEMENT",
+    "CATALOGUE_MANAGEMENT"
+  ],
+  "allowedDocTabs": [],
+  "allowedDocFilters": []
+}

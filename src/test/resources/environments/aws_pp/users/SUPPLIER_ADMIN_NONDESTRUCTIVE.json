@@ -1,0 +1,23 @@
+{
+  "username": "catfishsupplier@ctfs007",
+  "password": "Cucumber-1!",
+  "isBuyer": false,
+  "isSupplier": true,
+  "allowedMainMenuItems": [
+    "HOME",
+    "DASHBOARD",
+    "SUPPLIERPORTAL",
+    "PRODUCTMANAGER",
+    "QUOTES",
+    "MYPROFILE",
+    "SETTINGS"
+  ],
+  "allowedSettings": [
+    "COMMUNITY_REGISTRATION",
+    "ORGANISATION_MANAGEMENT",
+    "USER_MANAGEMENT",
+    "CATALOGUE_MANAGEMENT"
+  ],
+  "allowedDocTabs": [],
+  "allowedDocFilters": []
+}

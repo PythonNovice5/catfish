@@ -1,0 +1,62 @@
+# PLATFORM DATA ===============================================================
+project.basedir=${basedir}
+atCheckWaiting=30
+page.trace=true
+
+baseUrl=https://jupiter-buyers.procserveonline.com
+pcm.baseUrl=https://jupiter-pcm.procserveonline.com/PCM/main.load.do
+heiler.baseUrl=https://jupiter-marketplace.procserveonline.com/JPBC/0_5StartPage.jsp
+
+poll.sleep=10000
+poll.retries=10
+
+# JUPITER USER DATA ============================================================
+BUYER.basic.name=The Basic
+BUYER.basic.username=qa_basicbuyer@thby001
+BUYER.basic.password=PerFt38t!
+BUYER.basic.menus=DOCUMENTS,SHOPPING,DIRECTORY
+BUYER.basic.documents.tabs=MY_NOTIFICATIONS,MY_TRANSACTIONS
+BUYER.basic.documents.filters=UNREAD_CREDIT_NOTES,UNPAID_INVOICES,UNREAD_QUOTES,REQUISITIONS_PENDING_APPROVAL,PURCHASE_ORDERS_WITHOUT_AN_INVOICE,REQUESTS_FOR_QUOTE_ABOUT_TO_EXPIRE,REQUESTS_FOR_QUOTES_THAT_HAVE_EXPIRED
+
+BUYER.advanced.name=The Buyer
+BUYER.advanced.username=qa_advancebuyer@thby001
+BUYER.advanced.password=July2016!
+BUYER.advanced.menus=DOCUMENTS,SHOPPING,DIRECTORY,CONTRACTS
+
+BUYER.admin.name=The Admin
+BUYER.admin.username=qa_adminbuyer@thby001
+BUYER.admin.password=July2016!
+BUYER.admin.menus=DOCUMENTS,SHOPPING,PRODUCTS,DIRECTORY,CONTRACTS,SETTINGS
+BUYER.admin.settings=ORGANISATION_MANAGEMENT,USER_MANAGEMENT,SUPPLIER_REGISTRATION,REQUEST_A_SUPPLIER,REQUEST_A_CATALOGUE,USER_REGISTRATION,CATALOGUE_ACCESS_MANAGEMENT,CATALOGUE_MANAGEMENT
+
+BUYER.community.name=The Admin
+BUYER.community.username=community_admin@thby001
+BUYER.community.password=July2016!
+
+BUFFALO.basic.name=The Basic
+BUFFALO.basic.username=buffalo_buyer@bffl001
+BUFFALO.basic.password=April2016!
+
+BUFFALO.admin.name=The Admin
+BUFFALO.admin.username=buffalo_admin@bffl001
+BUFFALO.admin.password=July2016!
+
+CAMEL.basic.name=The Basic
+CAMEL.basic.username=camel_buyer@cml001
+CAMEL.basic.password=July2016!
+
+CAMEL.admin.name=The Admin
+CAMEL.admin.username=camel_admin@cml001
+CAMEL.admin.password=July2016!
+
+PROC.user.name=Cat Fish
+PROC.user.username=catfish@proc
+PROC.user.password=t
+PROC.user.menus=DOCUMENTS,SHOPPING,SUPPLIERPORTAL,PRODUCTS,DIRECTORY,CONTRACTS,FIELDGLASS,SETTINGS
+PROC.user.settings=SYSTEM_MANAGEMENT,IDENTITY_MANAGEMENT,ROOT_MANAGEMENT,NETWORK_MANAGEMENT,COMMUNITY_MANAGEMENT,COMMUNITY_REGISTRATION,ORGANISATION_MANAGEMENT,USER_MANAGEMENT,SUPPLIER_REGISTRATION,REQUEST_A_SUPPLIER,REQUEST_A_CATALOGUE,BUYER_REGISTRATION,USER_REGISTRATION,E-PAYMENT_REGISTRATION,WEB_SERVICES_ACCOUNTS,CATALOGUE_ACCESS_MANAGEMENT,CATALOGUE_MANAGEMENT
+
+# NON-LVP SUPPLIERS ===========================================================
+SUPPLIER.admin.name=SUNEV
+SUPPLIER.admin.username=thesenuv@snv001
+SUPPLIER.admin.password=Password2016!
+SUPPLIER.admin.menus=PRODUCTS,SETTINGS

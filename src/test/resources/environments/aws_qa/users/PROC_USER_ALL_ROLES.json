@@ -1,0 +1,42 @@
+{
+  "username": "catfish@root",
+  "password": "Cucumber-1!",
+  "isBuyer": true,
+  "isSupplier": true,
+  "allowedMainMenuItems": [
+    "HOME",
+    "DASHBOARD",
+    "SHOPPING",
+    "PRODUCTMANAGER",
+    "QUOTES",
+    "DIRECTORY",
+    "MYPROFILE",
+    "SETTINGS"
+  ],
+  "allowedSettings": [
+    "Analytics",
+    "SYSTEM_MANAGEMENT",
+    "ROOT_MANAGEMENT",
+    "NETWORK_MANAGEMENT",
+    "COMMUNITY_MANAGEMENT",
+    "COMMUNITY_REGISTRATION",
+    "ORGANISATION_MANAGEMENT",
+    "USER_MANAGEMENT",
+    "SUPPLIER_REGISTRATION"
+  ],
+  "allowedDocTabs": [
+    "MY_NOTIFICATIONS",
+    "MY_TRANSACTIONS",
+    "DOCUMENT_TRACKER"
+  ],
+  "allowedDocFilters": [
+    "UNREAD_CREDIT_NOTES",
+    "UNPAID_INVOICES",
+    "REQUISITIONS_PENDING_MY_APPROVAL",
+    "UNREAD_QUOTES",
+    "REQUISITIONS_PENDING_APPROVAL",
+    "PURCHASE_ORDERS_WITHOUT_AN_INVOICE",
+    "REQUESTS_FOR_QUOTE_ABOUT_TO_EXPIRE",
+    "REQUESTS_FOR_QUOTES_THAT_HAVE_EXPIRED"
+  ]
+}
